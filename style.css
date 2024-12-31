@@ -8,17 +8,33 @@ body {
 .para {
     font-size: 35px;
     background-color: #CDC1FF;
+    color: #FFFDEC;
+    text-align: center;
+
 }
 
-.sub{
+.sub {
     background-color: #FFF6E3;
     font-weight:lighter;
     font-size: 20px;
     text-decoration-line: underline;
+    color: #cf88b1;
 }
 
 .contents {
     font-size: 15px;
     font-weight: lighter;
     background-color: #FFCCEA;
+}
+
+.msg {
+    background-color: #CDC1FF;
+    color: #FFFDEC;
+    text-align: center;
+}
+
+.link {
+    background-color: #FFF6E3;
+    font-size: 18px;
+    color: #cf88b1;
 }
