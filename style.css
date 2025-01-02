@@ -15,7 +15,6 @@ body {
     background-color: #CDC1FF;
     color: #FFFDEC;
     text-align: center;
-
 }
 
 .sub {
@@ -26,7 +25,8 @@ body {
     font-size: 20px;
     text-decoration-line: underline;
     color: #cf88b1;
-    margin: 10px;
+    margin: 10px 80px;
+    text-align: center;
 }
 
 .contents {
@@ -38,6 +38,9 @@ body {
 }
 
 .msg {
+    display: inline-block;
+    width: 300px;
+    margin: 25px 175px;
     border: 5px dotted plum;
     background-color: #CDC1FF;
     color: #FFFDEC;
@@ -48,7 +51,7 @@ body {
     text-align: center;
     display: inline-block;
     width: 150px;
-    margin:auto 250px;
+    margin: auto 250px 25px;
     border: 5px dotted rgb(248, 216, 156);
     background-color: #FFF6E3;
     font-size: 18px;
