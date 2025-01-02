@@ -1,4 +1,7 @@
 body {
+    box-sizing: border-box;
+    width: 650px;
+    margin: auto;
     font-weight: bolder;
     font-size: 20px;
     background-color: #BFECFF;
@@ -6,6 +9,8 @@ body {
 }
 
 .para {
+    border: 5px dotted plum;
+    padding: 25px;
     font-size: 35px;
     background-color: #CDC1FF;
     color: #FFFDEC;
@@ -14,27 +19,45 @@ body {
 }
 
 .sub {
+    border: 5px dotted rgb(248, 216, 156);
+    padding: 10px;
     background-color: #FFF6E3;
     font-weight:lighter;
     font-size: 20px;
     text-decoration-line: underline;
     color: #cf88b1;
+    margin: 10px;
 }
 
 .contents {
+    border: 5px dotted rgb(250, 174, 187);
     font-size: 15px;
     font-weight: lighter;
     background-color: #FFCCEA;
+    margin: 5px auto;
 }
 
 .msg {
+    border: 5px dotted plum;
     background-color: #CDC1FF;
     color: #FFFDEC;
     text-align: center;
 }
 
 .link {
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    margin:auto 250px;
+    border: 5px dotted rgb(248, 216, 156);
     background-color: #FFF6E3;
     font-size: 18px;
     color: #cf88b1;
+}
+
+img {
+    display: flex;
+    width: 300px;
+    margin: 25px auto;
+
 }
